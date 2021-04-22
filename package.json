@@ -1,0 +1,27 @@
+{
+  "name": "minesweeper",
+  "version": "0.0.1",
+  "description": "Minesweeper implementation in JS",
+  "author": "Enrique Ramírez",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enrique-ramirez/minesweeper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enrique-ramirez/minesweeper/issues"
+  },
+  "homepage": "https://github.com/enrique-ramirez/minesweeper#readme",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [
+    "minesweeper",
+    "javascript"
+  ],
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
